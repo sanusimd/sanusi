@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:ital,wght@0,100;0,300;0,700;0,900;1,700&display=swap");
+
+/*  font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif; 
+    color : FF7676;
+    
+    */
+:root {
+  --lightRed: #ff7676;
+  --red: #f61919;
+  --blue: #1d19f6;
+  --green: #19f649;
+  --offwhite: #fffdfd;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--offwhite);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
+
+/* main container  */
+#container {
+  width: 1366px;
+}
+
+/* hero css start here  */
+#hero {
+}
+#hero header {
+  margin: 40px 104px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#hero header .hero__logo {
+  width: 50px;
+  height: 50px;
+}
+
+#hero header .hero__btn {
+  text-decoration: none;
+  border: 3px solid var(--lightRed);
+  border-radius: 20px;
+  width: 150px;
+  height: 40px;
+  line-height: 2;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#hero header .hero__btn:hover {
+  background-color: var(--lightRed);
+  font-weight: bold;
+}
+
+#hero .hero__content {
+  text-align: center;
+  position: relative;
+}
+
+#hero .hero__title-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#hero .hero__title {
+  font-size: 34px;
+  font-weight: bold;
+  color: var(--lightRed);
+  font-family: "Roboto Slab", serif;
+}
+
+#hero .hero__desc {
+  font-size: 16px;
+  font-family: "Roboto Slab", serif;
+}
+
+#hero .hero__image {
+  margin: 23px 68px;
+  width: 220px;
+  height: 260px;
+}
+
+#hero .hero__animation {
+  /* position: absolute; */
+  /* top: 0px; */
+  /* left: 0px; */
+}
+
+#hero .hero__circle {
+  position: absolute;
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  background: rgba(29, 25, 247, 0.1);
+}
+
+#hero .hero__circle.red {
+  background: rgba(255, 118, 118, 0.1);
+  left: 263px;
+}
+
+#hero .hero__circle.blue {
+  left: 317px;
+  top: 199px;
+  background: rgba(29, 25, 247, 0.1);
+}
+
+#hero .hero__circle.green {
+  right: 277px;
+  top: 161px;
+ background: rgba(25, 247, 73, 0.1);
+}
+#hero .hero__circle.lightred {
+  right: 315px;
+  top: 547px;
+  background: rgba(247, 25, 25, 0.1);
+}
+
+#hero .hero__media {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#hero .mediatext {
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+#hero .hero__icon:hover{
+  background: var(--lightRed);
+}
+
+#hero .fab{
+ font-size: 20px;
+}
+
+#hero .fab:hover{
+  color: var(--lightRed);
+}
+
+#hero .fab:not(:first-child) {
+  margin-left: 10px;
+}
