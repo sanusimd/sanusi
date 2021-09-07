@@ -145,14 +145,22 @@ body {
   background: var(--lightRed);
 }
 
+#hero .link{
+  color: #000000;
+
+}
+
+#hero .link:not(:first-child) {
+  margin-left: 10px;
+}
+
 #hero .fab{
  font-size: 20px;
+ 
 }
 
 #hero .fab:hover{
   color: var(--lightRed);
 }
 
-#hero .fab:not(:first-child) {
-  margin-left: 10px;
-}
+
