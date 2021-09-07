@@ -10,7 +10,10 @@ gsap.from(".hero__circle.green", {
   y: 500,
 });
 gsap.from(".hero__circle.lightred", {
-    duration: 1, duration:1, opacity: 0 , delay:1 
+    // duration: 1, duration:1, opacity: 0 , delay:1 
+      duration: 2.5,
+  ease: "slow( 0.7, 0.7, false)",
+  y: 500,
     
   });
 
