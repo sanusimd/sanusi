@@ -48,6 +48,7 @@ body {
 
 #hero header .hero__btn {
   text-decoration: none;
+  color: #000000;
   border: 3px solid var(--lightRed);
   border-radius: 20px;
   width: 150px;
